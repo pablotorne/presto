@@ -1853,7 +1853,7 @@ usage(void)
   fprintf(stderr,"%s","        -offset: A time offset to add to the 1st event in the same units as the events\n");
   fprintf(stderr,"%s","                 1 double value\n");
   fprintf(stderr,"%s","                 default: `0'\n");
-  fprintf(stderr,"%s","         infile: Input data file name.  If the data is not in a regognized raw data format, it should be a file containing a time series of single-precision floats or short ints.  In this case a '.inf' file with the same root filename must also exist (Note that this means that the input data file must have a suffix that starts with a period)\n");
+  fprintf(stderr,"%s","         infile: Input data file name.  If the data is not in a recognized raw data format, it should be a file containing a time series of single-precision floats or short ints.  In this case a '.inf' file with the same root filename must also exist (Note that this means that the input data file must have a suffix that starts with a period)\n");
   fprintf(stderr,"%s","                 1...16384 values\n");
   fprintf(stderr,"%s","  version: 21Feb13\n");
   fprintf(stderr,"%s","  ");
